@@ -2,6 +2,6 @@ const express = require("express");
 const router = express.Router();
 
 //router.use('/chat',require('./chat.js'))
-router.use("./rides", require("./rides.js"));
+router.use("./product", require("./product.js"));
 
 module.exports = router;
